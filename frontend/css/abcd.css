@@ -1,0 +1,26 @@
+.main{
+    background-color: rgb(127, 193, 255);
+    margin: 80px;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-bottom: 10px solid purple ;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box2{
+    margin-left: 20px;
+}
+
+img :hover{
+    transform: scale(1.5);
+}

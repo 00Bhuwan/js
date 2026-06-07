@@ -1,1 +1,0 @@
-img= document.getElementsByName(img)
