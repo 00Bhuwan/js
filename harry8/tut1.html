@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tut1</title>
+
+    <!-- for EXternal CSS -->
+    <link rel="stylesheet" href="tut1.css">
+
+    <!-- Style tag e.g below -->
+     <style>
+        /* # for id section of a element. */
+        #id-intro{
+            background-color: red;
+        }
+        /* .for class section of a element. */
+        .class-intro{
+            background-color: blue;
+        }
+        /* body for whole body section. */
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        /* * for every element. */
+        *{
+            font-size: large;
+        }
+     </style>
+</head>
+<body>
+    <div class="class-intro">
+        <p>Class can be assigned to multiple element to group them together.</p>
+    </div>
+    <div id="id-intro">
+        <p>Id are the unique identifier to a element.</p>
+    </div>
+    <section><h3>Three ways to add a css to a html file.</h3>
+        <ol>
+            <li>Inline CSS</li>
+            <li>External CSS</li>
+            <li>Style Tag</li>
+        </ol>
+    </section>
+    <div style="background-color: rgb(228, 70, 96);">
+        This is inline CSS.
+    </div>
+    <br>
+    <section class="for-external">
+        This is for a External CSS.
+    </section>
+</body>
+</html>
