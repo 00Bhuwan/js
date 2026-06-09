@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    padding: 10px;
+    color:rgb(197, 30, 30)
+}
+
+.first-div{
+    background-color: rgb(41, 82, 156);
+}
+
+.second {
+    height: auto;
+    width: 50vw;
+    color:rgb(77, 109, 109);
+    background-color: rgb(0, 0, 0);
+}
+
+.vertical-box{
+    height: 250px;
+    width: 250px;
+    border: 12px;
+    background-color: black;
+    background-image: url(/harry8/Images/amon_lotm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* body{
+    background-image: url("Images/amon_lotm.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+} */
+
+

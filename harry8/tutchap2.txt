@@ -1,0 +1,39 @@
+## colors
+color: red;
+color change to red
+
+### Types fo color
+1. rgb: Red, Green, Blue.   e.g rgb(200,41,23)
+2. hex code: eg. #ff1234
+3. HSL: hue, saturation, lightness. eg.hsl(2,49%,63%)
+
+Properties
+1. background color: background of a container
+e.g background-color = brown;
+
+2. background image: used to set an image as background
+e.g background-image: url(blabla.jpg)
+-> the image is by default repeated in X, Y direction
+
+3. background-repeat : repetition of image in X or Y axis
+e.g background-repeat: repeat-x, 
+                        repeat-y, 
+                        no-repeat
+
+4. background-size: size of image
+e.g cover(fills), contain(fits), auto(original size), {{width}}px {{height}}px;
+
+5. background-position: starting position of the image
+e.g left top, bottom, etx
+
+6. background-attachment: define a scrollable/ non-scrollable character of image.
+e.g fixed
+
+7. background-shorthand: single property to set multiple background Properties.
+e.g background: red url('location.png') no-repeat right top;
+which defines the color, image src, repetation and position
+### ORDER MATTERS
+
+use for responsive UI
+vw = viewport width
+vh = viewport height
