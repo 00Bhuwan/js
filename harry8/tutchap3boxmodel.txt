@@ -1,0 +1,48 @@
+|-----------------------|
+|   Margin              |
+||---------------------||
+||      Border         ||
+|||-------------------|||
+|||     Padding       |||
+||||-----------------||||
+||||    Content      ||||
+||||-----------------||||
+|||-------------------|||
+||---------------------||
+|-----------------------|
+
+
+height and width
+total height = height + top/bottom padding + top/bottom Border + top/bottom Margin
+
+top right bottom left = clockwise
+e.g mergin = 2px 3px 4px 5px; (top right bottom left)
+e.g margin 4px 5px; (top & bottom) ra (left & right)
+
+Can also set individually i.e
+margin-top: 23px;
+padding-right: 23px;
+
+## Border
+border-width: 2px;
+border-style: solid/dotted/dashed;
+border-color: red;
+OR
+use border: 2px solid red;
+
+border-radius: corners of border
+e.g border-radius: 7px;
+
+# margin collapse
+when two margins from different elements overlap the 
+equivalent margin is the greater of the two. this is called marign collapse.
+
+
+# box sizing
+determines waht out of padding and border is included in elements width and height
+can be conten-box and border-box
+# important for parent-child box sizing
+- helps the child box inside parent box to have effective box size
+e.g box-sizing: border-box/ content-box;
+use border-box mostly @@@@important
+# see mdn documentation
