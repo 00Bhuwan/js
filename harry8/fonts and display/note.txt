@@ -1,0 +1,45 @@
+display propery: 
+used to determine whether a element is treated as 
+a block/inline element and the layout used for its children. 
+i.e flexbox and grid, etc.
+
+display: inline
+takes only the space required by element. No linebreaks before 
+and after setting width/height (or margin/padding) not allowed.
+span is a inbuilt inline display
+
+display: block
+takes full space available in width and leaves a newline before and after the element.
+div has inbuilt block functionality
+
+display: inline-block 
+similar to inline but setting height, width, margin and padding is allowed. elements can sit next to each other.
+
+display: none vs visibility: hidden
+with display: none 
+    the element is removed from the document flow. Its space is not blocked.
+with visibility: hidden 
+    the element is hidden but its space is reserved.
+
+text-align property
+e.g text-align: center;
+used to set the horizontal alignment of a text.
+
+text-decoration property
+used to decorate the text
+can be overline, line-through, underline, none
+
+text-transform property
+used to specify uppercase and lowercase letters in a text
+e.g text-transform: uppercase;
+
+line-height property
+used to specify the space between lines.
+e.g line-height: 0.7;
+
+font 
+- font-family
+- font-size
+- font-style
+- font-varient
+- font-weight
