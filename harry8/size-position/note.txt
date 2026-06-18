@@ -1,0 +1,31 @@
+units for describing size other than px(pixel)
+rem, cm ,vh, vw, percentages, etc
+
+px are relative to viewing disctance i.e 1920*1080 , here 1px is 1 unit out of 1080/1920
+
+relative length
+units relative to other length property
+1. em: unit relative to parent font size
+2. rem: unit relative to root font size(<Html> tag)
+3. vw: unit relative to 1% viewport width
+4. vh: unit relative to 1% viewport height
+
+min/max- height/width property
+- if set value less than min height/width it enforces to be min value
+- same for max
+
+position property
+1. static: default position, no effect of top/bottom/left/right
+2. relative: effect of top/bottom/left/right
+3. absolute: act accoding to direct parent not to whole of the html element
+4. fixed: e.g chat with us in websites.
+5. sticky: used to show navbar even when scrolled down
+
+z-index used to determine hierachy to show the elments. 
+e.g z-index: 1 for a navbar is shown first and the next element.
+
+list-style property
+- is shorthand for type, position and image
+e.g list-style: square;
+e.g list-style: square inside url("image.png);
+square= list-style type, inside= list-style position, url= list-style image

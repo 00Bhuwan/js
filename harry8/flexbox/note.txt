@@ -1,0 +1,8 @@
+float-property
+flows the element toward left of right.
+e.g float: right;
+
+clear property
+mention direction where float will not work
+e.g float: right;
+    clear: right;       //can also use clear: both
