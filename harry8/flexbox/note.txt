@@ -6,3 +6,47 @@ clear property
 mention direction where float will not work
 e.g float: right;
     clear: right;       //can also use clear: both
+
+    to initialize a flexbox use
+e.g .div_class{
+    display: flex;
+}
+[o o | 0 0]
+the outer square bracket indicate flex container
+o and 0 indicate flex items
+there are two axis one across all items in flex container another cross axis: mostly vertical axis
+
+flex-direction property
+= defines the direction toward which items are laid
+e.g row, row-reverse, column, column-reverse
+
+flex property for the parent i.e flex-container
+(Flex-direction || Flex-wrap || Flex-flow || Justify-content || Align-items || Align-content)
+1. flex-wrap: can be wrap, nowrap, wrap-reverse
+2. justify-content: defines alignment along main axis (similar to text-align)
+    e.g flex-start, flex-end, center, space-between, space around
+3. align-items: defines alignment along cross axis
+    -- similar to justify-content property
+    e.g flex-start || flex-end || center || stretch || baseline
+4. align-content: align a flex container's lines when there is extra space in cross axis
+    -- The align-content property is used on multi-line flex-containers.
+    -- It takes the same values as align-items apart from baseline.
+5. flex-direction: decide how the flex items are laid out horizontally, vertically or reversed in both directions.
+6. flex-flow: shorthand propert taking flex-direction and flex-wrap values
+
+flex property for the children i.e flex items
+1. order: controls the order in which the items appear the flex container
+2. align-self: allows default alignment to be overridden for the individual flex items
+    -- auto || flex-start || flex-end || center || baseline || stretch
+3. flex-grow: defines the ability for a flex item to flex-grow (expansion of child within parent if space available)
+4. flex-shrink: specifies how much a flex item will shrink relative to the rest of the flex items
+    -- used when items overflow
+5. flex-basis: helps specify initial size of a flex-item
+    --  if you increased the content in the flex-item, it automatically resizes to fit.
+    -- If,set the flex-item to a fixed width using flex-basis, flex-item has been constrained
+6. flex: short hand allows you set the flex-grow, flex-shrink and flex-basis properties all at once.
+    e.g flex: 0 1 auto;   // setting the three properties: flex-grow: 0; flex-shrink: 1; flex-basis: auto
+    --  note the order.
+
+important notes here visual 
+https://medium.com/free-code-camp/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af
