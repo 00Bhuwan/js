@@ -1,0 +1,17 @@
+row and column used to map the display
+
+property: 
+1. grid-column-gap: used to adjust sapce between columns of a css grid.
+2. grid-row-gap: used to adjust space between rows of a css grid.
+
+propert for grid container
+3. grid-template-columns: used to define the column in a grid
+( the no of column = no of auto typed)
+// fill the value by replacing auto to define the column size
+4. grid-template-rows: similar to above 
+5. justify-content: used to align whole grid inside the container
+6. align-content: used to vertically align the whole grid inside the container
+7. gird-gap: shorhand for grid-row and column; (row and column)
+
+property for grid item:
+ 
