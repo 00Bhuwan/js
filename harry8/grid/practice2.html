@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test </title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            height: 15vh;
+            width: 100vw;
+            background-color: black;
+            color: white;
+            align-content: center;
+            justify-content: end;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            margin-left: 33px;
+            gap: 33px;
+        }
+        /* li{
+            margin: 0 23px;
+        } */
+        .new_grid {
+            height: 75vh;
+            display: grid;
+            background-color: gray;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+        }
+        .red {
+            background-color: red;
+            width: 40vw;
+            display: grid;
+            place-items: center;
+        }
+        .blue {
+            background-color: rgb(71, 32, 134);
+            width: 40vw;
+            display: grid;
+            place-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="new_grid">
+        <div class="red">Lorem ipsum dolor sit.</div>
+        <div class="blue">Lorem ipsum dolor sit amet consectetur.</div>
+    </div>
+</body>
+</html>
