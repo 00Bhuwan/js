@@ -1,0 +1,19 @@
+:: transform
+1. translate: takes values for x-axis and y-axis
+    e.g translate(23px, 50px): 23px translate to x-axis
+
+2. rotate: rotate the element
+    e.g rotate(0.5 turn) : element is upside down
+    e.g rotate(25deg) : turn by 25 degree
+
+3. transform-origin: origin for the effect to show
+    e.g by default transform-origin: center
+
+4. scale: set value for scaling in x and y direction
+    e.g transform: scale(2, 3)
+    e.g transform: scaleX(value)
+
+5. skew: direction to sckew the element in
+    e.g sckew(23deg, 12deg)
+
+6. matrix: takes values for translate, scale, rotate, skew and scale
