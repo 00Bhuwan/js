@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        .container {
+            background-color: red;
+            height: 500px;
+        }
+        .box {
+            border: 2px solid black;
+        }
+        img {
+            height: 250px;
+            width: 300px;
+            transition-property: width;
+            transition-duration: 1.2s;
+            transition-timing-function: ease-out;
+            transition-delay: 15sec;
+        }
+        /* img:hover {
+            width: 450px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img id="myIamge" src="https://images.unsplash.com/photo-1557341483-5bd78b5272f7?q=80&w=808&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="adsfas">
+             <button id="btn">Toggle</button>
+        </div>
+    </div>
+</body>
+    <script>
+        btn.addEventListener("click", ()=>{
+            myIamge.style.width="450px"
+        })
+    </script>
+</html>

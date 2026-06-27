@@ -1,0 +1,21 @@
+:: transition
+used to change property values smoothley over a given duration
+
+1. transition-property: the porperty to transition
+    e.g transition-porperty: width;
+
+2. transition-duration: time taken to transition
+    e.g transition-duration: 0.3sec;
+
+3. transition-timing-function: effect taken while trainstion
+    e.g trainstion-timing-function: ease-in/out;
+    curved transition can also be added using cubic-bezier function here
+
+4. transition-delay: time after which effect is seen 
+    e.g: transition-delay: 3sec;
+
+// transition: width 2s ease-in-out;         
+// is a shorthand property for transition
+
+NOTE: id acts as a variable in the script section of html page and 
+        can be used to introduce many effects and condition accordingly

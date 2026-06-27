@@ -17,3 +17,5 @@
     e.g sckew(23deg, 12deg)
 
 6. matrix: takes values for translate, scale, rotate, skew and scale
+
+7. rotate: takes rotation degree value in X, Y and Z axis
