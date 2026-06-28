@@ -14,7 +14,7 @@ used to change property values smoothley over a given duration
 4. transition-delay: time after which effect is seen 
     e.g: transition-delay: 3sec;
 
-// transition: width 2s ease-in-out;         
+// transition: width 2s ease-in-out, height 4s ease-in;         
 // is a shorthand property for transition
 
 NOTE: id acts as a variable in the script section of html page and 

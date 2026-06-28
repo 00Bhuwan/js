@@ -1,0 +1,55 @@
+:: Animation
+used to animate css properties with more control.
+we use @keyframes rules to change the animation from a given
+style to a new style
+e.g 
+    @keyframes {
+        from {width: 20px;}
+        to {width: 31px;}
+    }
+
+// Properties
+animation-name: widthAnimate;
+// name in the @keyframe identifier
+
+animation-duration: 3s;
+//duration of animation to run
+
+animation-timing-function: ease-in-out;
+// as in name
+
+animation-delay: 2s;
+// time after which animation will affect
+
+animation-iteration-count: 3;
+// times the animation will run
+
+animation-direction: alternate-reverse;
+// direction of animation to run (values can be normal, reverse, alternate, etc)
+// used to make progress bar
+
+animation: widthAnimate 3s ease-in-out 2s 3 direction alternate;
+//shorthand
+
+@keyframes widthAnimate {
+    from {
+        width: 300px;
+    }
+    to {
+        width: 450px;
+    }
+}
+
+// Using percentage value stats with animation
+we use % values to indicate what should happen when a certain percent of animation is completed
+@keyframes widthAnimate {
+    0% {
+        width: 300px;
+    }
+    50%{
+        width: 450px;
+    }
+    100% {
+        width: 300px;
+    }
+}
