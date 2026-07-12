@@ -9,8 +9,27 @@
     padding: 0;
 }
 
+header {
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
 nav ul {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -26,10 +45,30 @@ nav ul li a {
     text-decoration: none;
 }
 
-header {
-    background-color: var(--main-bg-color);
-    color: white;
-    border: 2px solid white;
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 230px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0 2px 0 40px;
+    padding: 0 12px;
+}
+
+.btn-search {
+    font-weight: 700;
+    font-family: "Inconsolata", monospace;
+}
+
+.container {
+    min-height: calc(100vh - 10vh - 8vh);
 }
 
 footer {
