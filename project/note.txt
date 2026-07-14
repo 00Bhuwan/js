@@ -2,3 +2,4 @@ to center a parent element inside a flexbox the height of child must be made sam
 
 responsive.css for the responsiveness from desktop to mobile can use device in inspect for editing
 
+will continue to refer to harry yt

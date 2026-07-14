@@ -3,7 +3,7 @@
         background-color: red;
     }
 
-    nav{
+    nav {
         flex-direction: column;
     }
 
@@ -16,7 +16,7 @@
         justify-content: center;
         height: 5vh;
     }
-    
+
     .search-bar {
         justify-content: center;
     }
